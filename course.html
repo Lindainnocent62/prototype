@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FinTech Prototype">
+    <link  rel="stylesheet"
+           href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+           crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+          rel="stylesheet"/>
+        <link
+            href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+            rel="stylesheet"
+    <title>Course</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="community">
+    <div id="main">
+        <!--navigation toolbar-->
+        <header id="navbar-container">
+            <nav role="navigation" id="nav-bar">
+                    <ul>
+                        <li><a href="Progress.html">Progress</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="community.html">Community</a></li>
+                       <li><a href="index.html">Log out</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <!--main section containing the intro and vision-->
+        <main>
+            <form method="post" action="#">
+              <section id="q1" role="region" aria-labelledby="html-questions">
+                <h2 id="html-questions">Personal Finance</h2>
+                <div class="question-block">
+                  <p>1</p>
+                  <fieldset class="question" name="html-question-one">
+                    <legend>
+                      Saving is the same as investing
+                    </legend>
+                    <ul class="answers-list">
+                      <li>
+                        <label for="q1-a1">
+                          <input type="radio" id="q1-a1" name="q1" value="true" />
+                          True
+                        </label>
+                      </li>
+                      <li>
+                        <label for="q1-a2">
+                          <input type="radio" id="q1-a2" name="q1" value="false" />
+                          False
+                        </label>
+                      </li>
+                    </ul>
+                  </fieldset>
+                </div>
+                <div class="question-block">
+                  <p>2</p>
+                  <fieldset class="question" name="html-question-two">
+                    <legend>
+                      It’s a bad idea to start investing when you’re young.
+                    </legend>
+                    <ul class="answers-list">
+                      <li>
+                        <label for="q2-a1">
+                          <input type="radio" id="q2-a1" name="q2" value="true" />
+                          True
+                        </label>
+                      </li>
+                      <li>
+                        <label for="q2-a2">
+                          <input type="radio" id="q2-a2" name="q2" value="false" />
+                          False
+                        </label>
+                      </li>
+                    </ul>
+                  </fieldset>
+                </div>
+              </section>
+              <button id="com" type="submit">next</button>
+            </form>
+          </main>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
